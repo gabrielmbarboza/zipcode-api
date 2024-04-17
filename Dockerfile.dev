@@ -1,0 +1,18 @@
+ARG RUBY_VERSION=3.3.0
+
+FROM registry.docker.com/library/ruby:$RUBY_VERSION-slim
+
+# Install packages needed to build gems
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y build-essential git libpq-dev libvips pkg-config
+
+WORKDIR /usr/src/app
+
+COPY Gemfile Gemfile.lock /usr/src/app/
+
+ENV BUNDLE_PATH /gems
+
+RUN bundle install --jobs 3
+
+COPY . /usr/src/app/
+
