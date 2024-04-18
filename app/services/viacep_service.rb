@@ -17,7 +17,11 @@ class ViacepService
         return
       end
 
-      JSON.parse(viacep_response.body)
+      viacep_data = JSON.parse(viacep_response.body)
+
+      return if viacep_data&.key?("erro") && viacep_data["erro"]
+
+      viacep_data
     rescue StandardError => e
       Rails.logger.error(e.message)
       nil
