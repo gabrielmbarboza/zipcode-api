@@ -1,0 +1,17 @@
+POST http://0.0.0.0:3000/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "user1@example.com",
+    "password": "123"
+}
+
+###
+
+POST http://0.0.0.0:3000/signup HTTP/1.1
+content-type: application/json
+
+{
+    "email": "user4@example.com",
+    "password": "987"
+}

@@ -1,0 +1,3 @@
+GET http://0.0.0.0:3000/zipcodes/29052077 HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6InVzZXIxQGV4YW1wbGUuY29tIiwicGFzc3dvcmQiOiIxMjMifQ.gXRlcwdKMj6RFb_eRYokN0zBNXUbTtXqzN2uQqx4nAQ
