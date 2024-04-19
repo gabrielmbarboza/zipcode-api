@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+zipcode1:
+  code: 04313-110
+  address: Rua Borboletas Psicodélicas
+  neighborhood: Vila Guarani (Z Sul)
+  city: São Paulo
+  uf: SP
+  user: user1
+
+zipcode2:
+  code: 08345-380
+  address: Travessa Sentimental Demais
+  neighborhood: Jardim da Conquista (Zona Leste)
+  city: São Paulo
+  uf: SP
+  user: user2
+
+zipcode3:
+  code: 60763-640
+  address: Avenida Penetração Norte-Sul
+  neighborhood: Conjunto Esperança
+  city: Fortaleza
+  uf: CE
+  user: user3
+
+zipcode4:
+  code: 08345-000
+  address: Travessa Nave Mãe
+  neighborhood: Jardim da Conquista (Zona Leste)
+  city: São Paulo
+  uf: SP
+  user: user4
