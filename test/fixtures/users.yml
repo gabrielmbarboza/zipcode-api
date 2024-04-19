@@ -1,0 +1,18 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+user1:
+  email: user1@example.com
+  password: 123
+
+user2:
+  email: user2@example.com
+  password: 456
+
+user3:
+  email: user3@example.com
+  password: 789
+
+user4:
+  email: user4@example.com
+  password: 987
+
